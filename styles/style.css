@@ -1,12 +1,113 @@
 body{
     max-width: 1440;
     margin: 0 auto;
+    background-color: #000000;
 }
 
 .header{
+    display: flex;
+    justify-content: space-around;
+}
 
+.menu{
+    display: flex;
+    flex-direction: column;
 }
 
 .explore{
-    background-image: assets/image/fon.png ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: url(../assets/image/fon.png);
+    width: 1920px;
+    height: 1573px;
+    }
+    
+    .explore__wrapper-title{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 104%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .explore__wrapper-subtitle{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.33em;
+        text-transform: uppercase;
+        color: #ffc178;
+    }
+
+    .explore__ikons{
+        width: 25px;
+height: 214px;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+transform: rotate(90deg);
+    }
+
+    .explore__wrapper-text{
+        font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+    }
+
+    .tenggara{
+        margin: 0 auto;
+        max-width: 1462px;
+        height: 721px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tenggara__wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        float: right;
+        top: -150px;
+        left: -250px;
+    }
+
+    .tenggara__wrapper__block{
+        padding: 10%;
+        
+    }
+
+    .tenggara__wrapper__block-subtitle{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.33em;
+text-transform: uppercase;
+color: #fbd784;
+    }
+
+    .tenggara__wrapper__block-title{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 64px;
+color: #fff;
+    }
+
+    .tenggara__wrapper__block-text{
+        font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 178%;
+color: #fff;
+    }
+
+    a{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+color: #fbd784;
     }
