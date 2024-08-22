@@ -3,6 +3,7 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     background-color: #000000;
 }
 
@@ -20,9 +21,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: url(../assets/image/fon.png);
+    /* background: url(../assets/image/fon.png);
     width: 1920px;
-    height: 1573px;
+    height: 1573px; */
+    border: 1px solid red;
     }
     
     .explore__wrapper-title{
@@ -66,6 +68,7 @@ color: #fff;
         height: 721px;
         justify-content: center;
         align-items: center;
+        border: 1px solid red;
     }
 
     .tenggara__wrapper{
@@ -172,5 +175,136 @@ font-weight: 600;
 font-size: 18px;
 line-height: 178%;
 text-align: center;
+color: #fff;
+    }
+
+
+    /* footer */
+
+    .footer{
+        color: #fff;
+        display: flex;
+        border: 1px solid rgb(102, 36, 110);
+        flex-direction: column;
+        width: 1460px;
+        height: 748px;
+    }
+
+    /* .footer__wrapper-img{
+        background: #fff;
+opacity: 0.3;
+width: 1460px;
+height: 1px;
+    } */
+
+    .footer__menu{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(184, 204, 130);
+        width: 1460px;
+        height: 125px;
+    }
+
+    .footer-logo{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 48px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #fff;
+    }
+
+    .footer-question{
+        font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+letter-spacing: -0.01em;
+color: #fff;
+    }
+
+    .footer-btn{
+        background: #ffa343;
+        border-radius: 8px;
+width: 239px;
+height: 69px;
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 17px;
+color: #000;
+    }
+
+    .footer__wrapper-img{
+        width: 1460px;
+height: 125px;
+    }
+
+    .footer__wrapper{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(28, 119, 161);
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .footer__wrapper-tittle{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: -0.01em;
+color: #fff;
+    }
+
+    .footer__wrapper-input{
+background: #000;
+    }
+
+    .footer__wrapper-btn{
+        background: #ffa343;
+        border-radius: 8px 8px 0 0;
+width: 69px;
+height: 69px
+    }
+
+    .footer__link{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer__services{
+        padding: 34px 0px;
+width: 146px;
+height: 248px;
+    }
+
+    .footer__about{
+        padding: 34px 0px;
+width: 91px;
+height: 248px;
+    }
+
+    .footer__help{
+        padding: 34px 0px;
+width: 105px;
+height: 158px;
+    }
+
+
+    h4{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 0%;
+letter-spacing: -0.01em;
+color: #ffd1a0;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 19px;
+line-height: 0%;
+letter-spacing: -0.01em;
 color: #fff;
     }
